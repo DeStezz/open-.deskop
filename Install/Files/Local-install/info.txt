@@ -1,0 +1,1 @@
+"desktop-file-open.desktop" Goes to "~/.local/share/applications/". FYI The $home inside the file gets replaced by the installer script

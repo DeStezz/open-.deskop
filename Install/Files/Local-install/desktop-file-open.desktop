@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Exec="$home/.local/bin/desktop-file-open" %f
+Name=Run desktop file
+GenericName=External Hard Drive
+Comment=Boot into the external hard drive.
+Encoding=UTF-8
+Terminal=false
+Type=Application
+NoDisplay=true
