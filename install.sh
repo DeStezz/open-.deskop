@@ -5,6 +5,7 @@ while true; do
         [Ll] | Local* | local*)
             chmod +x ./Install/local-install.sh
             ./Install/local-install.sh
+            exit
         ;;
         [Gg] | Global* | global*)
             echo
