@@ -13,7 +13,7 @@ replace_vars () { #See https://developer.gnome.org/integration-guide/stable/desk
    declare -a replace_match 
    declare -a replace_convert
    replace_match=("%k" "%U" "%u")
-   replace_convert=("$FILE" "" "")
+   replace_convert=("\"$FILE\"" "" "")
    i=0
    for item in ${replace_match[@]}; do
        #echo "${replace_match[$i]}"
